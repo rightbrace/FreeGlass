@@ -1,3 +1,10 @@
-main: com.rightbrace.freeglass.FreeGlass
 name: FreeGlass
-version: 0.1.1
+version: 0.1.0
+main: com.rightbrace.freeglass.FreeGlass
+api-version: 1.17
+
+commands:
+    freeglass:
+        description: Bequeaths free panes onto a player.
+        usage: /<command> player_name
+        permission: freeglass.give
